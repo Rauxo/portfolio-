@@ -31,7 +31,7 @@ const Hero = () => {
           I build exceptional, highly interactive digital experiences and also have expertise in AI integrations.
         </p>
 
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div className="hero-buttons" style={{ display: 'flex', gap: '1rem' }}>
           <Link to="/projects" className="btn-primary">
             View My Work <ArrowRight size={20} />
           </Link>

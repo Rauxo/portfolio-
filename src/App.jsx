@@ -18,11 +18,12 @@ function App() {
         zIndex: 100,
         borderBottom: '1px solid var(--glass-border)'
       }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div className="container nav-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Link to="/" style={{ fontWeight: 800, fontSize: '1.2rem', letterSpacing: '1px', color: 'var(--text-color)' }}>
             RAAHUL<span className="gradient-text">.</span>
           </Link>
-          <div style={{ display: 'flex', gap: '2rem' }}>
+          <div className="nav-links" style={{ display: 'flex', gap: '2rem' }}>
+            <Link to="/" style={{ fontSize: '0.9rem', color: 'var(--text-color)' }}>Home</Link>
             <Link to="/about" style={{ fontSize: '0.9rem', color: 'var(--text-color)' }}>About</Link>
             <Link to="/projects" style={{ fontSize: '0.9rem', color: 'var(--text-color)' }}>Projects</Link>
             <Link to="/contact" style={{ fontSize: '0.9rem', color: 'var(--text-color)' }}>Contact</Link>

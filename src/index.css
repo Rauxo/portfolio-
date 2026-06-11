@@ -114,3 +114,36 @@ section {
   margin-bottom: 3rem;
   text-align: center;
 }
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  
+  .nav-links {
+    gap: 1rem !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-buttons a {
+    width: 100%;
+    justify-content: center;
+  }
+}
