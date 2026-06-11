@@ -14,7 +14,7 @@ const Contact = () => {
         <h2 className="section-title">Get In <span className="gradient-text">Touch</span></h2>
       </motion.div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', maxWidth: '1000px', margin: '0 auto' }}>
+      <div className="contact-grid">
         {/* Contact Info */}
         <motion.div
           className="glass-card"
