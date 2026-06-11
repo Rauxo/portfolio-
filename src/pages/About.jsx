@@ -23,7 +23,7 @@ const About = () => {
           <div>
             <h3 style={{ fontSize: '1.8rem', color: 'var(--accent-primary)', marginBottom: '1rem' }}>My Journey</h3>
             <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, fontSize: '1.1rem' }}>
-              Hi, I'm Raahul Saikia. I am a passionate full-stack developer with a deep focus on crafting modern, highly interactive, and scalable web and mobile applications. 
+              Hi, I'm Rahul Saikia. I am a passionate full-stack developer with a deep focus on crafting modern, highly interactive, and scalable web and mobile applications. 
               My journey into programming started with a fascination for how things work on the web, which quickly evolved into a dedicated career path involving the MERN stack, React Native, and SQL.
             </p>
           </div>

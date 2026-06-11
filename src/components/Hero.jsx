@@ -15,7 +15,7 @@ const Hero = () => {
           Hello, I'm
         </h2>
         <h1 style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', fontWeight: 900, lineHeight: 1.1, marginBottom: '1.5rem' }}>
-          Raahul <br/>
+          Rahul <br/>
           <span className="gradient-text">Saikia.</span>
         </h1>
       </motion.div>

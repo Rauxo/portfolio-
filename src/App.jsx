@@ -20,7 +20,7 @@ function App() {
       }}>
         <div className="container nav-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Link to="/" style={{ fontWeight: 800, fontSize: '1.2rem', letterSpacing: '1px', color: 'var(--text-color)' }}>
-            RAAHUL<span className="gradient-text">.</span>
+            Rahul<span className="gradient-text">.</span>
           </Link>
           <div className="nav-links" style={{ display: 'flex', gap: '2rem' }}>
             <Link to="/" style={{ fontSize: '0.9rem', color: 'var(--text-color)' }}>Home</Link>
@@ -48,7 +48,7 @@ function App() {
         fontSize: '0.9rem',
         marginTop: 'auto'
       }}>
-        <p>© {new Date().getFullYear()} Raahul Saikia. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Rahul Saikia. All rights reserved.</p>
       </footer>
     </Router>
   )
